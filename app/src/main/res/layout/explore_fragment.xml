@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_explore"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="top"
+    tools:context="com.example.rohanrodrigues.businessapplication2.ExploreFragment">
+
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="80sp"
+        android:src="@drawable/explore_icon"
+        android:layout_gravity="center"
+        android:contentDescription="Gear"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uber"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:padding="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get ready to take Uber to new heights"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "o"
+            android:textColor="#0000FF"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "o"
+            android:textColor="#0000FF"
+            android:textSize="20sp"
+            android:padding="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "o"
+            android:textColor="#0000FF"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Swipe Left For More"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="bottom"/>
+
+</LinearLayout>

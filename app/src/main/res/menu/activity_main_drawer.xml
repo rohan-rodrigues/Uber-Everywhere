@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_page"
+            android:icon="@drawable/home_page_icon"
+            android:title="Home Page"/>
+        <item
+            android:id="@+id/pokemon_go"
+            android:icon="@drawable/pokemon_go_image"
+            android:title="Pokemon Go and Uber"/>
+        <item
+            android:id="@+id/items"
+            android:icon="@drawable/items_image"
+            android:title="Uber for Items"/>
+        <item
+            android:id="@+id/sports"
+            android:icon="@drawable/sports_icon"
+            android:title="Uber for Sports"/>
+        <item
+            android:id="@+id/hair_style"
+            android:icon="@drawable/hair_style"
+            android:title="Hair Style and Uber"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"/>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send"/>
+        </menu>
+    </item>
+
+</menu>
